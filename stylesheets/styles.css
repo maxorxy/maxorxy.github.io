@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 * {
-	font-family:Lato, sans-serif;
-	margin:2em auto;
+	font-family:inherit;
 	padding:0;
 }
 
@@ -21,4 +20,8 @@ a, a:link, a:visited {
 
 a:hover, a:active, a:focus {
 	text-decoration:underline;
+}
+
+header, section, ul {
+	margin:2em auto;
 }
