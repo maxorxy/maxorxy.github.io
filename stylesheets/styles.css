@@ -1,9 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  font: Lato, sans-serif;
+  font: inherit;
 }
 
 ul {
   list-style-type:none;
+}
+
+a, a:link, a:visited {
+  text-decoration:none;
+  color:blue;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration:underline;
 }
